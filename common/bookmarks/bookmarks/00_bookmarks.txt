@@ -1,0 +1,50 @@
+﻿#bm_1066_canarias = {                             ###Default, required for mod to run as base. Can only be removed when working bookmarks are established.
+#	start_date = 1066.10.1
+#	is_playable = yes
+#	group = bm_group_1066
+#
+#	weight = { value = 100 }
+#
+#	# Guanarigato
+#	character = {
+#		name = "bookmark_canarias_guanarigato"
+#		dynasty = 100848
+#		type = male
+#		birth = 1039.1.1
+#		title = c_canarias
+#		government = tribal_government
+#		culture = baranis
+#		religion = "west_african_pagan"
+#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+#		history_id = 20842
+#		position = { 250 750 }
+#
+#		animation = happiness
+#	}
+#}
+
+bm_600_kirinna = {
+	start_date = 600.1.1
+	is_playable = yes
+	group = bm_group_600
+
+	weight = { value = 100 }
+
+	#Yanagi
+	character = {
+		name = "bookmark_kirinna_yanagi"
+		dynasty = 900000
+		dynasty_splendor_level = 1
+		type = male
+		birth = 553.1.1
+		title = c_momoyama
+		government = tribal_government
+		culture = yan
+		religion = "west_african_pagan"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 900000
+		position = { 250 750 }
+
+		animation = happiness
+	}
+}

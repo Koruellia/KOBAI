@@ -1,0 +1,16 @@
+﻿100848 = {
+	name = "dynn_Tikanariyen"
+	culture = "maghrebi"
+}
+
+# Keeping Prydain to dodge a stubborn error.
+1029001 = {
+	name = "dynn_Prydain"
+	culture = "welsh"
+}
+
+900000 = {
+	prefix = "dynnp_ka"
+	name = "dynn_Meika"
+	culture = "maghrebi"
+}

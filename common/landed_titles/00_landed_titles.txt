@@ -1,0 +1,58 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+
+e_aoyan = {
+	color = { 255 152 93 }
+	
+	capital = c_momoyama # Canarias
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = culture:baranis
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+	
+	k_katsuya = {
+		color = { 196 36 18 }
+		
+		capital = c_momoyama # Canarias
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:baranis
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		
+		d_momoyama = {
+			color = { 42 127 201 }
+			
+			capital = c_momoyama # Gran Canaria
+			
+			c_momoyama = {
+				color = { 255 0 0 }
+				
+				b_momoyama = {
+					province = 1
+					
+					color = { 255 0 0 }
+				}
+			}
+		}
+	}
+}
+
+# These titles cut hundreds of errors from logs. 
+e_hre = { landless = yes }
+e_byzantium = { landless = yes }
+e_roman_empire = { landless = yes }
