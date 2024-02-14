@@ -1,0 +1,19 @@
+900000 = {
+	name = "Yanagi"
+	dna =  900000_yanagi
+	dynasty = 900000
+	religion = "west_african_pagan"
+	culture = yan
+	trait = honest
+	trait = content
+	trait = trusting
+	trait = education_learning_2
+	trait = scholar
+	disallow_random_traits = yes
+		553.1.1 = {
+		birth = "553.1.1"
+	}
+	624.1.1 = {
+		death = "624.1.1"
+	}
+}
